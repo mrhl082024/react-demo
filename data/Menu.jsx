@@ -1,4 +1,4 @@
-const menu = [
+const MenuData = [
   {
     id: 1,
     name: "Spaghetti Bolognese",
@@ -70,4 +70,4 @@ const menu = [
     category: "Hovedrett",
   },
 ];
-export default menu;
+export default MenuData;
