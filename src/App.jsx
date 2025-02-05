@@ -1,5 +1,6 @@
-import MenuData from "../data/Menu";
-import MenuCard from "../components/MenuCard";
+import MenuData from "./data/Menu";
+import MenuCard from "./components/MenuCard";
+
 function App() {
   return (
     <>
