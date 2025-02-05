@@ -1,14 +1,8 @@
-import MenuData from "./data/Menu";
-import MenuCard from "./components/MenuCard";
+import MenuData from "./data/MenuData.js";
+import Menu from "./components/Menu.jsx";
 
 function App() {
-  return (
-    <>
-      {MenuData.map((props) => (
-        <MenuCard {...props} />
-      ))}
-    </>
-  );
+  return <Menu menu={MenuData} />;
 }
 
 export default App;
