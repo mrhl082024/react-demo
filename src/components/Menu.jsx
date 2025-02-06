@@ -8,7 +8,7 @@ export default function Menu({ menu }) {
         {menu.map((dish) => (
           <Dish
             key={dish.id}
-            title={dish.name}
+            title={dish.title}
             price={dish.price}
             ingredients={dish.ingredients}
             category={dish.category}
