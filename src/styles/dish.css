@@ -1,0 +1,21 @@
+#dish-card{
+    border: solid 3px red;
+    border-radius: 1rem;
+    width: 340px;
+    font-family: verdana;
+    box-shadow: 3px 3px 3px rgb(60, 127, 215);
+}
+
+
+#dish-name{
+    font-size: 20px;
+}
+#dish-price{
+    font-size: 20px;
+}
+#dish-ingredients{
+    font-size: 20px;
+}
+#dish-category{
+    font-size: 30px;
+}

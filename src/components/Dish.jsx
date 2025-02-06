@@ -1,10 +1,11 @@
-export default function Dish(props) {
+import "../styles/dish.css";
+export default function Dish({ name, price, ingredients, category }) {
   return (
-    <div>
-      <h1>{props.name} </h1>
-      <p>{props.price} </p>
-      <p>{props.ingredients} </p>
-      <h2>{props.category} </h2>
+    <div id="dish-card">
+      <h1 id="dish-name">{name}</h1>
+      <p id="dish-price">{price} </p>
+      <p id="dish-ingredients">{ingredients} </p>
+      <h2 id="dish-category">{category} </h2>
     </div>
   );
 }
